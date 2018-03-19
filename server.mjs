@@ -20,6 +20,6 @@ app.command('start', ctx => ctx.reply(START_MESSAGE));
 app.command('ahah', ctx => ctx.reply(getRandomAhah()));
 app.command('sexism', ctx => ctx.reply(SEXISM_MESSAGE));
 app.command('nou', ctx => ctx.reply(NO_U_MESSAGE));
-app.command('notagain', ctx => ctx.reply(NOTAGAIN_MESSAGE))
+app.command('notagain', ctx => ctx.reply(NOTAGAIN_MESSAGE));
 
 app.startPolling();
